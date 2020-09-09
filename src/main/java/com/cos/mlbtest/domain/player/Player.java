@@ -35,7 +35,7 @@ public class Player {
      private String name; 
      private String position;
      private int number;
-     @OneToOne
+     @ManyToOne
      @JoinColumn(name = "teamId")
      private Team team; 
      

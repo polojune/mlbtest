@@ -19,13 +19,26 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">야구장등록</a>
+      <a class="nav-link" href="/stardium">야구장등록</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">팀등록</a>
+      <a class="nav-link" href="/team">팀등록</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">선수등록</a>
+      <a class="nav-link" href="/player">선수등록</a>
+    </li>
+    
+        <li class="nav-item">
+      <a class="nav-link" href="#">선수목록</a>
+    </li>
+        <li class="nav-item">
+      <a class="nav-link" href="#">팀목록</a>
+    </li>
+        <li class="nav-item">
+      <a class="nav-link" href="#">야구장목록</a>
+    </li>
+        <li class="nav-item">
+      <a class="nav-link" href="#">포지션별 야구선수 목록</a>
     </li>
   </ul>
 </nav>

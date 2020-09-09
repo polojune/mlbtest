@@ -1,9 +1,9 @@
-function saveStardium(){
+function saveTeam(){
 	
 	 let data = $("#frm").serialize(); 
     	console.log(1,data);
     	
-    	fetch("/stardiumSave",{
+    	fetch("/teamSave",{
     		method:"post", 
     		body:data,
     		headers:{
@@ -13,7 +13,7 @@ function saveStardium(){
     		return res.text();
     		
     	}).then(function(res){
-    		alert("야구장 등록 성공");
+    		alert("팀등록 성공");
     		location.reload();
     	 
         
